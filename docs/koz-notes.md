@@ -8,7 +8,7 @@ Turn off the built in apache web server
 $ sudo apachectl graceful-stop
 ```
 Ran the XAMPP xampp-osx-5.6.30-1-installer.dmg file and chose the defaults. The sofwtare
-is installed into the /Applications/XAMPP directory. Start the mysql server. Visit
+is installed into the ```/Applications/XAMPP``` directory. Start the mysql server. Visit
 the http://localhost/index.php link and see the XAMPP welcome page.
 
 A quick test to acces the mysql server.
