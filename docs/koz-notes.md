@@ -18,3 +18,21 @@ $ curl localhost:3306
 $
 ```
 Visit ```http://localhost/phpmyadmin``` to create a shop database.
+
+Copy the shop-script source code to the web server, fix the permissions and run the installer.
+```
+$ sudo cp -r itsx3016-ecomm /Applications/XAMPP/htdocs
+$ sudo chmod 777 cfg products_pictures templates templates_c
+$ sudo chmod 666 cfg/*
+```
+Now visit http://localhost/itsx-3016/install.php
+```
+hostname: localhost
+username: root
+password: <leave blank>
+database name: shop
+Admin login: admin
+Admin password: <choose a password>
+```
+Leave ```fill database with demo content ``` checked and choose ```install```.
+
