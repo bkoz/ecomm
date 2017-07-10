@@ -25,7 +25,7 @@ $ sudo cp -r itsx3016-ecomm /Applications/XAMPP/htdocs
 $ sudo chmod 777 cfg products_pictures templates templates_c
 $ sudo chmod 666 cfg/*
 ```
-Now visit http://localhost/itsx-3016/install.php
+Now visit http://localhost/itsx3016-ecomm/install.php
 ```
 hostname: localhost
 username: root
