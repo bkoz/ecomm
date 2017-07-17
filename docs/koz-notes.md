@@ -36,3 +36,29 @@ Admin password: <choose a password>
 ```
 Leave ```fill database with demo content ``` checked and choose ```install```.
 
+##### Project
+
+###### Students
+Mithuna: mithunarkrishna@gmail.com
+Souhir Ben Hsan Kessemtini: souhirbenhsan@gmail.com
+
+###### Database 
+#### Query
+The query needs to return: item ordered, date ordered, quantity ordered, and customer name.
+```
+Description           Table                    Field
+item ordered          SS_ordered_carts         name
+date ordered          SS_orders                order_time
+quantity ordered      SS_ordered_carts         Quantity    
+customer name         SS_orders                cust_firstname, cust_lastname
+```
+##### Login using the mysql CLI 
+```$ /Applications/XAMPP/bin/mysql -u root -h localhost shop```
+```
+mysql> select SS_ordered_carts.name,SS_orders.order_time,SS_ordered_carts.Quantity,SS_orders.cust_firstname,SS_orders.cust_lastname from SS_ordered_carts,SS_orders where SS_ordered_carts.orderID=SS_orders.orderID;
+```
+
+#### Smarty
+http://webtrain.austincc.edu/~hben/sc1.JPG
+http://webtrain.austincc.edu/~hben/sc2.JPG
+

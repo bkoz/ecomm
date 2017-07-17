@@ -43,7 +43,9 @@
 	 <B>{$totals.orders}</B> orders so far<br />
 	 Total revenue: <B>{$totals.revenue}</B>
 	 </small>
-
+     <form name="download" method="post" action="download_csv.php">
+     <p><label><input type="submit" name="download" id="button" value="Download CSV"></label></p>
+     </form>
 	{else}
 
 	 &nbsp;
